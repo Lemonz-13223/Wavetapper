@@ -153,6 +153,7 @@ main li{
 #control-panel label{
     width: max-content;
     text-align: left;
+    font-weight: 500;
 }
 
 #control-panel input[type="checkbox"]{
