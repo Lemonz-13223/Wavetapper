@@ -42,7 +42,7 @@ cube{
 }
 
 face{
-    display: inline-block;
+    display: inline-flex;
     
     grid-column: 1;
     grid-row: 1;
