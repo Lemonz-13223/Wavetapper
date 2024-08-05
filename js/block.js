@@ -1,5 +1,3 @@
-var ID = Number(location.pathname.substring(7).replace('.html',''));
-
 var cover = document.getElementById('cover');
 var muteIcon = document.getElementById('mute');
 

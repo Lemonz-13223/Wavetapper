@@ -1,12 +1,15 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wavetapper</title>
-    
+
     <link rel="stylesheet" href="css/Mulish.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body onload="load()">
     <header>
         <section id="cube-section">
@@ -40,18 +43,21 @@
             <h2>Control Panel</h2>
             <div>
                 <button id="calibrate" onclick="DeviceInfo.calibrate()">Calibrate</button>
-                <label for="calibrate">Gets measurements about popups and the screen. Please re-calibrate if the screen resolution changes.</label>
+                <label for="calibrate">Gets measurements about popups and the screen. Please re-calibrate if the screen
+                    resolution changes.</label>
             </div>
             <div>
                 <div class="button">
                     <label for="highlightmode">Highlight Mode: </label>
                     <input type="checkbox" name="" id="highlightmode">
                 </div>
-                <label for="highlightmode">Enables an alternative mode that lets you highlight various blocks to enlarge them.</label>
+                <label for="highlightmode">Enables an alternative mode that lets you highlight various blocks to enlarge
+                    them.</label>
             </div>
             <div>
                 <button id="load" onclick="Blocks.load()" disabled>Load</button>
-                <label for="load">Load all popups. Due to how the audio works, you will need to click on each popup to lead them individually.</label>
+                <label for="load">Load all popups. Due to how the audio works, you will need to click on each popup to
+                    lead them individually.</label>
             </div>
             <div>
                 <div class="button">
@@ -78,9 +84,10 @@
             </div>
         </section>
     </main>
-    
-    
+
+
     <script src="js/prototype.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>

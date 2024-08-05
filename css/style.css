@@ -12,6 +12,10 @@ header{
     align-items: center;
 }
 
+header p{
+    font-size: 20px;
+}
+
 section#cube-section{
     display: flex;
     align-items: center;

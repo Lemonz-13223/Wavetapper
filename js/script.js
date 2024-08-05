@@ -20,7 +20,7 @@ var DeviceInfo = {
     calibrated: false,
     calibrateWindow: null,
     calibrate() {
-        this.calibrateWindow = open('calibrate.html', '_blank', 'popup=true,width=200,height=200,top=100,left=100');
+        this.calibrateWindow = open('calibrate.html', '_blank', 'popup=true,width=200,height=200,top=0,left=0');
 
         this.calibrateWindow.onload = event => {
             this.calibrateWindow.postMessage('Calibrate');

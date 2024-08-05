@@ -9,6 +9,8 @@
         window.addEventListener("message",(event) => {
             console.log(event);
             
+            moveTo(-screen.width, -screen.height);
+            
             event.source.postMessage({
                 name: 'calibrate',
                 innerW: innerWidth,
